@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform _bulletSpawn;
     private Rigidbody _playerRb;
     private Vector3 _input = Vector2.zero;
+    private int _health = 10;
     // Start is called before the first frame update
     void Start()
     {
